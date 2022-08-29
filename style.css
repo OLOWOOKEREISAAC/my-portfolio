@@ -4,6 +4,7 @@ body, html{
     height: 100%;
     color: white;
     letter-spacing: 1px;
+    background-color: #000;
     
 }
 main{
@@ -107,10 +108,21 @@ aside{
     margin-top: 5%;
     justify-items: center;
     column-gap: 5%;
+    grid-auto-rows: max-content;
+    line-height: 20px;
+    
+}
+.aboutPageContainer figure{
+    height:500px;
     
 }
 .aboutPageContainer img{
     border-radius: 5px;
-    height: 160%;
+    height: 90%;
     width: 100%;
 }
+.aboutPageContainer b{
+    color: rgb(173, 11, 11);
+    list-style: none;
+}
+
