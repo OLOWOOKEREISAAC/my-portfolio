@@ -43,10 +43,11 @@ aside{
 .content{
     margin: 15% ;
     text-align: center;
+    
 }
 .content h1{
     font-weight:900;
-    font-size: 90px;
+    font-size: 80px;
     letter-spacing: 1px;
 }
 
@@ -94,12 +95,6 @@ aside{
     display: block; 
     
 }
-@media screen and (max-width:800px) {
-    .projectContainer{
-        grid-template-columns:1fr;   
-    }
-    
-}
 
 /* about page*/
 .aboutPageContainer{
@@ -112,17 +107,53 @@ aside{
     line-height: 20px;
     
 }
-.aboutPageContainer figure{
-    height:500px;
-    
-}
+
 .aboutPageContainer img{
     border-radius: 5px;
-    height: 90%;
-    width: 100%;
+    height: 100%;
+    width:100%;
 }
 .aboutPageContainer b{
     color: rgb(173, 11, 11);
     list-style: none;
 }
 
+
+
+
+@media screen and (max-width:800px) {
+    .projectContainer{
+        grid-template-columns:1fr;   
+    }
+    
+}
+@media screen and (max-width:500px){
+    .projectContent{
+        font-size: 150%;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        padding-top:5%;   
+    }
+
+    .aboutPageContainer{
+        grid-template-columns: 90%;
+    }
+    .aboutPageContainer figure{
+        height: 200px;
+        margin-top: 20px;
+    }
+    .aboutPageContainer img{
+        border-radius: 100%;
+        height: 90%;
+
+    }
+    .content h1{
+        font-weight:700;
+        font-size: 40px;
+       
+    }
+    .content{
+        margin: 20% 0% ;
+        
+    }
+}
