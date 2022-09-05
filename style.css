@@ -7,15 +7,17 @@ body, html{
     background-color: #000;
     
 }
+
 main{
-    background-color: rgb(14, 13, 13);
-}
-#homePage{
     background-image: url('bg.jpg');
+    background-color: rgb(14, 13, 13);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     height: 100%; 
+    font-size: 20px;
+    text-align: center;
+    /* color:rgba(228, 216, 168, 0.897) ; */
 }
 section{
     background-color: rgba(0, 0, 0, 0.788);
@@ -26,6 +28,8 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-bottom: 2px solid white;
+    margin-bottom: 5%;
+    text-align: left;
 }
 nav a{
     text-decoration: none;
@@ -40,7 +44,11 @@ aside{
     justify-items: end;
 
 }
-.content{
+#name{
+    /* text-align: center; */
+    font-size: 30px;
+}
+/* .content{
     margin: 15% ;
     text-align: center;
     
@@ -49,7 +57,7 @@ aside{
     font-weight:900;
     font-size: 80px;
     letter-spacing: 1px;
-}
+} */
 
 .presentPage{
     font-size: 120%;
@@ -99,23 +107,58 @@ aside{
 /* about page*/
 .aboutPageContainer{
     display: grid;
-    grid-template-columns:40% 50% ;
-    margin-top: 5%;
+    grid-template-columns:35% 62% ;
+    margin: 3%;
     justify-items: center;
-    column-gap: 5%;
-    grid-auto-rows: max-content;
-    line-height: 20px;
+    column-gap: 2%;
+    /* grid-auto-rows: max-content; */
+    /* line-height: 20px; */
     
 }
+.aboutPageContainer figure{
+    /* margin: 5% auto; */
+    height: 300px;
 
+}
 .aboutPageContainer img{
-    border-radius: 5px;
+    border-radius: 10px;
     height: 100%;
-    width:100%;
+    /* width:100%; */
+    box-shadow: -6px -6px 2px rgba(228, 216, 168, 0.897);
 }
 .aboutPageContainer b{
     color: rgb(173, 11, 11);
     list-style: none;
+}
+
+.aboutPageContent button{
+    padding: 2% ;
+    border-radius: 10px;
+    border: none;
+    box-shadow: -2px 2px   white;
+    background-color:rgba(228, 216, 168, 0.897);
+}
+.aboutPageContent button:hover{
+    box-shadow: -1px 1px   white;
+
+}
+.tools{
+    text-align: center;
+    --fa-animation-delay: 10s;
+    --fa-animation-duration: 1s;
+    --fa-animation-iteration-count:5;
+}
+.tools > i{
+    margin: 2% 5%;
+}
+ .fa-css3{
+    color: blue;
+}
+.fa-js{
+    color: yellow;
+}
+.fa-html5{
+    color: orangered;
 }
 
 
