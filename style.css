@@ -146,33 +146,63 @@ aside{
     background-color:rgba(228, 216, 168, 0.897);
 }
 .aboutPageContent button:hover{
-    box-shadow: -1px 1px   white;
+    box-shadow: -3px 3px   white;
+    font-size: x-small;
 
 }
+
+
 .tools{
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20%;
+    column-gap: 5%;
+    margin-top:2%;
     --fa-animation-delay: 10s;
     --fa-animation-duration: 1s;
     --fa-animation-iteration-count:5;
+
 }
-.tools > i{
+
+.eachtool{
+    display: grid;
+    grid-template-columns:1fr 3fr ;
+    
+}
+.tools > i, #contact i{
     margin: 2% 5%;
 }
- .fa-css3, .fa-linkedin{
+   
+.tools progress{
+    height: 25px;
+    width: 100%;
+    color: black;
+    text-align: end;
+   
+}
+#html::after,#css::after, #javascript::after, #figma::after, #github::after{
+    font-size: 15px;
+    display: inline-block;
+    font-weight: 900;   
+}
+#html::after, #css::after, #github::after{content:'80%'}
+#javascript::after, #figma::after{content:'70%'}
+
+.fa-css3, .fa-linkedin{
     color: blue;
 }
-.fa-js{
+.fa-js{   
     color: yellow;
 }
 .fa-html5, .fa-envelope{
     color: orangered;
 }
 
-
-#contact  p{
-    display: inline-block;
-    margin: 0 5%;
+#contact a:hover{
+    font-size: large;
 }
+
+
 
 
 
