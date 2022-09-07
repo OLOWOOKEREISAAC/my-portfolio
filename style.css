@@ -20,22 +20,29 @@ main{
     /* color:rgba(228, 216, 168, 0.897) ; */
 }
 section{
-    background-color: rgba(0, 0, 0, 0.788);
-    padding: 2% 10% ;
+    background-color: rgba(0, 0, 0, 0.89);
+    padding: 0% 10% ;
     height: 100%;
 }
 nav{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    border-bottom: 2px solid white;
-    margin-bottom: 5%;
-    text-align: left;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 5%;  
+    padding: 3%;
 }
 nav a{
     text-decoration: none;
     color: white;
+    
 }
+nav a:nth-child(2){
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+}
+
 nav a:hover{
+    padding: 2%;
+    
     color: rgb(199, 13, 13);
 }
 aside{
@@ -151,16 +158,21 @@ aside{
 .tools > i{
     margin: 2% 5%;
 }
- .fa-css3{
+ .fa-css3, .fa-linkedin{
     color: blue;
 }
 .fa-js{
     color: yellow;
 }
-.fa-html5{
+.fa-html5, .fa-envelope{
     color: orangered;
 }
 
+
+#contact  p{
+    display: inline-block;
+    margin: 0 5%;
+}
 
 
 
