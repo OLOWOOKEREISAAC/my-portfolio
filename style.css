@@ -154,13 +154,13 @@ aside{
 
 .tools{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns:  1fr 1fr;
     row-gap: 20%;
     column-gap: 5%;
     margin-top:2%;
     --fa-animation-delay: 10s;
     --fa-animation-duration: 1s;
-    --fa-animation-iteration-count:5;
+    --fa-animation-iteration-count: 4;
 
 }
 
@@ -241,4 +241,7 @@ aside{
         margin: 20% 0% ;
         
     }
+   .tools{
+     grid-template-columns: 1fr;
+   }
 }
