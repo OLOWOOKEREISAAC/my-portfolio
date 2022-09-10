@@ -169,11 +169,14 @@ aside{
     text-align: end;
    
 }
-#html::after,#css::after, #javascript::after, #figma::after, #github::after{
+
+.tools progress::after{
     font-size: 15px;
     display: inline-block;
-    font-weight: 900;   
+    font-weight: 900;
 }
+
+#react::after{content: '50%';}
 #html::after, #css::after, #github::after{content:'80%'}
 #javascript::after, #figma::after{content:'70%'}
 
