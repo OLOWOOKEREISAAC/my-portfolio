@@ -17,7 +17,6 @@ main{
     height: 100%; 
     font-size: 20px;
     text-align: center;
-    /* color:rgba(228, 216, 168, 0.897) ; */
 }
 section{
     background-color: rgba(0, 0, 0, 0.89);
@@ -52,19 +51,9 @@ aside{
 
 }
 #name{
-    /* text-align: center; */
     font-size: 30px;
 }
-/* .content{
-    margin: 15% ;
-    text-align: center;
-    
-}
-.content h1{
-    font-weight:900;
-    font-size: 80px;
-    letter-spacing: 1px;
-} */
+
 
 .presentPage{
     font-size: 120%;
@@ -122,7 +111,6 @@ aside{
     
 }
 .aboutPageContainer figure{
-    /* margin: 5% auto; */
     height: 300px;
 
 }
@@ -252,15 +240,6 @@ aside{
         box-shadow: none;
 
     }
-    /* .content h1{
-        font-weight:700;
-        font-size: 40px;
-       
-    }
-    .content{
-        margin: 20% 0% ;
-        
-    } */
 
     .tools{
         grid-template-columns: 1fr;
