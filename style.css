@@ -180,7 +180,7 @@ aside{
 #html::after, #css::after, #github::after{content:'80%'}
 #javascript::after, #figma::after{content:'70%'}
 
-.fa-css3, .fa-linkedin{
+.fa-css3, .fa-linkedin, .fa-react{
     color: blue;
 }
 .fa-js{   
