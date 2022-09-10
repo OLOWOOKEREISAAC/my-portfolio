@@ -155,9 +155,10 @@ aside{
 .tools{
     display: grid;
     grid-template-columns:  1fr 1fr;
-    row-gap: 20%;
+    row-gap: 20px;
     column-gap: 5%;
-    margin-top:2%;
+    margin-top:2% ;
+    margin-bottom: 40px;
     --fa-animation-delay: 10s;
     --fa-animation-duration: 1s;
     --fa-animation-iteration-count:3;
@@ -170,7 +171,7 @@ aside{
     grid-template-columns:1fr 3fr ;
     
 }
-.tools > i, #contact i{
+.tools > i , #contact i{
     margin: 2% 5%;
 }
    
@@ -234,7 +235,7 @@ aside{
         box-shadow: none;
 
     }
-    .content h1{
+    /* .content h1{
         font-weight:700;
         font-size: 40px;
        
@@ -242,7 +243,7 @@ aside{
     .content{
         margin: 20% 0% ;
         
-    }
+    } */
 
     .tools{
         grid-template-columns: 1fr;
