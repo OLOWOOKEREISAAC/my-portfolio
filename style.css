@@ -106,6 +106,15 @@ aside{
 }
 
 
+#portfolioMenu .bar1{ 
+    transform: translate(0,8px) rotate( 45deg) ;
+    background-color:rgb(199, 13, 13);
+}
+#portfolioMenu .bar2{ 
+    transform: rotate(-55deg);
+    background-color:rgb(199, 13, 13);
+}
+
 .presentPage{
     font-size: 120%;
     color: rgb(199, 13, 13);
