@@ -62,8 +62,8 @@ aside{
 
 .navBars{
     cursor: pointer;
-    margin-bottom:15px;
     width:fit-content;
+    margin: 0 auto 15px;
     
 }
 .bar1, .bar2, .bar3{
@@ -294,8 +294,9 @@ aside{
     }
     .navContainer{
         display:block;
-        justify-self: center;
+        /* justify-self: center; */
     }
+    
 
     .projectContent{
         font-size: 150%;
