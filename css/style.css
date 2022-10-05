@@ -4,7 +4,7 @@
     src: url('../font/mont/Montserrat-Medium.ttf');
 }
 @font-face {
-    font-family: mont-Font;
+    font-family: mont-black;
     src: url(../font/mont/Montserrat-Black.ttf);
 }
 @font-face {
@@ -92,10 +92,9 @@ nav a:hover{
     justify-items: end;
 
 } */
-#name{
-    font-size: 30px;
-    
-}
+
+
+
 
 
 .navContainer{
@@ -203,7 +202,13 @@ nav a:hover{
     
 }
 
+
+
+
+
 /* about page*/
+
+
 .aboutPageContainer{
     display: grid;
     grid-template-columns:35% 62% ;
@@ -224,7 +229,7 @@ nav a:hover{
     
 }
 .aboutPageContainer b{
-    color: rgb(173, 11, 11);
+    color: #ad0b0b;
     list-style: none;
 }
 
@@ -232,9 +237,10 @@ nav a:hover{
 .aboutPageContent {
     text-align: left;
 }
-/* .aboutPageContent p{
-    text-align: left;
-} */
+
+.coloredText{
+    color: #ad0b0b;;
+}
 .aboutPageContent button{
     padding: 2% ;
     border-radius: 10px;
