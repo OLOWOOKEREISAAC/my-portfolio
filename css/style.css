@@ -1,3 +1,23 @@
+/* Font syles css */
+@font-face {
+    font-family: mont-medium;
+    src: url('../font/mont/Montserrat-Medium.ttf');
+}
+@font-face {
+    font-family: mont-Font;
+    src: url(../font/mont/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: mont-thin;
+    src: url(../font/mont/Montserrat-Thin.ttf);
+}
+@font-face {
+    font-family: logo-font;
+    src: url(../font/paci/Pacifico-Regular.ttf);
+}
+
+/* End font styles css */
+
 *{margin:0; padding:0; box-sizing: border-box;}
 
 body, html{
@@ -5,12 +25,13 @@ body, html{
     color: white;
     letter-spacing: 1px;
     background-color: #000;
+    font-family: mont-medium;
     
 }
 
-main{
-    background-image: url('bg.jpg');
+main{ 
     background-color: rgb(14, 13, 13);
+    background-image: url('bg.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -23,35 +44,57 @@ section{
     padding: 0% 10% ;
     height: 100%;
 }
+
+
+.top-bar{
+    margin-bottom: 100px;
+}
+.logo a{
+    font-family: logo-font;
+    font-size: 30px;
+    color: #ffffff;
+    float: left;
+    text-decoration: none;
+    color:rgb(199, 13, 13) ;
+}
+.logo:focus a{
+    color: #ffffff;
+}
+
+
+
 nav{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 5%;  
+    grid-template-columns:  1fr 1fr;
+    margin: 20px 0 0 20px ;  
     padding: 3%;
+    text-align: right;
 }
 nav a{
     text-decoration: none;
     color: white;
+    padding: 0 10px;
     
 }
-nav  #portfolio{
+/* nav  #portfolio{
     border-right: 2px solid white;
     border-left: 2px solid white;
-}
+} */
 
 nav a:hover{
     padding: 2%;
     
     color: rgb(199, 13, 13);
 }
-aside{
+/* aside{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: end;
 
-}
+} */
 #name{
     font-size: 30px;
+    
 }
 
 
@@ -185,12 +228,20 @@ aside{
     list-style: none;
 }
 
+
+.aboutPageContent {
+    text-align: left;
+}
+/* .aboutPageContent p{
+    text-align: left;
+} */
 .aboutPageContent button{
     padding: 2% ;
     border-radius: 10px;
     border: none;
     box-shadow: -2px 2px   white;
     background-color:rgba(228, 216, 168, 0.897);
+    
 }
 .aboutPageContent button:hover{
     box-shadow: -3px 3px   white;

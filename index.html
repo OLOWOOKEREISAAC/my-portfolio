@@ -5,31 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/7865d7ec85.js" crossorigin="anonymous"></script>
-    <script defer src="./index.js"></script>
+    <script defer src="js/index.js"></script>
 </head>
 <body>
     <main >
-        <section >
-            <nav>
-                <a class ="presentPage" href="index.html">ISAAC</a>
-                 
-                <a class="hidden" id="portfolio" href="portfolio.html">PORTFOLIO</a> 
-                <a class="hidden" href="#contact">CONTACT</a> 
-                <div class="navContainer">
-                    <div class="navBars">
-                         <div class="bar1"></div>
-                         <div class="bar2"></div>
-                         <div class="bar3"></div>
-                     </div>
-                     <div class="navContent">
-                         <a href="portfolio.html">PORTFOLIO</a> 
-                         <a href="#contact">CONTACT</a> 
-                     </div>
-                     
-                 </div> 
-            </nav>
+        <section  >
+            <div class="top-bar">
+                <div class="logo">
+                    <a href="#">
+                        <p> Isaac</p>
+                    </a>
+                </div>
+
+                <nav>
+                    <a class="hidden" id="portfolio" href="portfolio.html">PORTFOLIO</a> 
+                    <a class="hidden" href="#contact">CONTACT</a> 
+                    <div class="navContainer">
+                        <div class="navBars">
+                             <div class="bar1"></div>
+                             <div class="bar2"></div>
+                             <div class="bar3"></div>
+                         </div>
+                         <div class="navContent">
+                             <a href="portfolio.html">PORTFOLIO</a> 
+                             <a href="#contact">CONTACT</a> 
+                         </div>
+                         
+                     </div> 
+                </nav>
+
+            </div>
+            
+        
             
             <div id="name">
                 <h1> Hi, I am Isaac Olowookere. </h1>
@@ -58,60 +67,8 @@
                     
                 </div>
             </div>
-           
 
             
-            <h1>My Tools</h1>
-            <div class="tools">
-                <div class="eachtool">
-                    <i class="fa-brands fa-react fa-3x fa-spin html"></i>
-                    <div>
-                       <label for="html">REACT JS</label> <br>
-                        <progress id="react" value="0.5" > </progress> 
-                    </div>
-                    
-                </div>
-                <div class="eachtool">
-                    <i class="fa-brands fa-html5 fa-3x fa-flip html"></i>
-                    <div>
-                       <label for="html">HTML5</label> <br>
-                        <progress id="html" value="0.8" > </progress> 
-                    </div>
-                    
-                </div>
-                <div class="eachtool">
-                    <i class="fa-brands fa-css3 fa-3x fa-flip"></i>
-                    <div>
-                        <label for="css">CSS3</label> <br>
-                        <progress id="css" value="0.8" > </progress> 
-                    </div>
-                    
-                </div>
-                <div class="eachtool">
-                    <i class="fa-brands fa-js fa-3x fa-flip"></i>
-                    <div>
-                        <label for="javascript">Javascript</label> <br>
-                        <progress id="javascript" value="0.7" > </progress>
-                    </div>
-                    
-                </div>
-                <div class="eachtool">
-                    <i class="fa-brands fa-square-git fa-3x fa-flip"></i>
-                    <div>
-                        <label for="github">Github</label> <br>
-                        <progress id="github" value="0.8" > </progress>
-                    </div>
-                    
-                </div>
-                <div class="eachtool">
-                    <i class="fa-brands fa-figma fa-3x  fa-flip"></i>
-                    <div>
-                        <label for="figma">Figma</label> <br>
-                        <progress id="figma" value="0.7" > </progress>
-                    </div>
-                    
-                </div>
-            </div>
             <div id = 'contact'>
                 <h1>Contact Me</h1>
                 
@@ -122,7 +79,19 @@
                 
             </div>   
             
-           
+            <!-- <form action="mailto:isaacolowookere1@gmail.com"
+            method="POST"
+            enctype="text/plain"
+            name="EmailForm">
+                Name:<br>
+                <input type="text" size="19" name="Contact-Name"><br><br>
+                Email:<br>
+                <input type="email" name="Contact-Email"><br><br> 
+                Message:<br> 
+                <textarea name="Contact-Message" rows="6″ cols="20″>
+                </textarea><br><br> 
+                <button type="submit" value="Submit">Send</button>
+            </form> -->
          
         </section>
     </main>
