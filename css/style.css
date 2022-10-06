@@ -58,9 +58,10 @@ section{
     float: left;
     text-decoration: none;
     color:rgb(199, 13, 13) ;
+    font-size: xx-large;
 }
 
-.logo a p{ font-size: xx-large;}
+
 
 .logo:focus a{
     color: #ffffff;
@@ -257,6 +258,7 @@ p{
 .redText{
     color: #da0e0e;
     font-size: large;
+    font-weight: bolder;
 
 }
 
@@ -265,17 +267,22 @@ p{
     margin-bottom: 30px;
 }
 .aboutPageContent button{
-    padding: 2% ;
-    border-radius: 10px;
+    padding: 15px 35px;
+    border-radius: 50px;
+    color: white;
     border: none;
-    box-shadow: -2px 2px   white;
-    background-color:rgba(228, 216, 168, 0.897);
+    /* box-shadow: -2px 2px   white; */
+    background-color:#f10c0ce5;
     
 }
-.aboutPageContent button:hover{
-    box-shadow: -3px 3px   white;
-    font-size: x-small;
 
+.aboutPageContent button:hover{
+    background-color:#b60c0c;
+    transform: translateY(5px);
+    
+}
+.aboutPageContent button:focus{
+    transform: translateY(5px);
 }
 
 
