@@ -4,6 +4,10 @@
     src: url('../font/mont/Montserrat-Medium.ttf');
 }
 @font-face {
+    font-family: mont-regular;
+    src: url('../font/mont/Montserrat-Regular.ttf');
+}
+@font-face {
     font-family: mont-black;
     src: url(../font/mont/Montserrat-Black.ttf);
 }
@@ -25,7 +29,7 @@ body, html{
     color: white;
     letter-spacing: 1px;
     background-color: #000;
-    font-family: mont-medium;
+    font-family: mont-regular;
     
 }
 
@@ -49,14 +53,15 @@ section{
 .top-bar{
     margin-bottom: 100px;
 }
-.logo a{
+.logo a p{
     font-family: logo-font;
-    font-size: 30px;
-    color: #ffffff;
     float: left;
     text-decoration: none;
     color:rgb(199, 13, 13) ;
 }
+
+.logo a p{ font-size: xx-large;}
+
 .logo:focus a{
     color: #ffffff;
 }
@@ -238,8 +243,26 @@ nav a:hover{
     text-align: left;
 }
 
-.coloredText{
-    color: #ad0b0b;;
+.name{
+    font-family: mont-medium;
+}
+
+
+
+p{
+    
+    font-size: small;
+    color: rgb(206, 200, 200);
+}
+.redText{
+    color: #da0e0e;
+    font-size: large;
+
+}
+
+.introduction{
+    border-bottom: 1px solid rgb(49, 45, 45) ;
+    margin-bottom: 30px;
 }
 .aboutPageContent button{
     padding: 2% ;
