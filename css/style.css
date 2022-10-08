@@ -352,6 +352,36 @@ p{
 #submit{width: 200px;}
 
 
+.toolsContainer{
+    margin: 100px 0;
+    text-align: left;
+}
+
+/* changing the background color for the progress bar */
+
+/* for IE10 NB: this has to be set for the
+ configuration on other browsers to work */
+ progress {    
+    background-color: #ad0b0b;
+    height: 10px;
+    width: 400px;    
+}
+
+progress::before{
+    content: 80;
+    color: white;
+}
+
+/* for chrome and safari */
+progress::-webkit-progress-value{ background-color: #ad0b0b; }
+
+/* for firefox  */
+progress::-moz-progress-bar{ background-color: #ad0b0b;}
+
+
+
+
+
 
 
 
