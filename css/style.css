@@ -362,8 +362,9 @@ p{
 
 .toolsIntroduction{
     grid-column: 1 / 3;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
+
 
 .eachTool label {
     display:flex;
@@ -392,8 +393,34 @@ progress::-moz-progress-bar{ background-color: #ad0b0b;}
 
 
 
+/* my services section */
+.myServicescontainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:  30px ;
+    text-align: left;
+    
+}
 
+.eachService{
+    width: 450px;
+    height: 300px;
+    background-color: rgba(68, 62, 62, 0.26);
+    padding:   30px 40px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0 white ;
+    margin: auto;
+    
+}
+.eachService:hover{
+    /* border-bottom: 5px solid #b60c0c; */
+    box-shadow: 3px 3px 0 #b60c0c ;
+}
 
+.eachService i{
+    color: #b60c0c;
+    margin-bottom: 20px;
+}
 
 
 
