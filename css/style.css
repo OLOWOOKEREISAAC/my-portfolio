@@ -284,7 +284,7 @@ p{
     transform: translateY(5px);
 }
 
-.flexbox{
+.flexboxForResumeSection{
     display: flex;
 }
 
@@ -295,17 +295,17 @@ p{
     margin: auto 10px;
 }
 
-.flexbox a i{
+.flexboxForResumeSection a i{
     /* background-color: white; */
     margin: 8px 10px;
     color: rgba(238, 231, 231, 0.918);
     font-size: 20px;
 }
-.flexbox a i:hover{
+.flexboxForResumeSection a i:hover{
     color: #b60c0c;;
 }
 
-#getInTouch{
+#getInTouch, .toolsIntroduction>h1{
     font-size: 60px;
     font-family: mont-medium;
 }
@@ -355,7 +355,22 @@ p{
 .toolsContainer{
     margin: 100px 0;
     text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px 50px;
 }
+
+.toolsIntroduction{
+    grid-column: 1 / 3;
+    margin-bottom: 20px;
+}
+
+.eachTool label {
+    display:flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
 
 /* changing the background color for the progress bar */
 
@@ -364,19 +379,18 @@ p{
  progress {    
     background-color: #ad0b0b;
     height: 10px;
-    width: 400px;    
+    width: 100%;  
+    /* display: inline-block;   */
 }
 
-progress::before{
-    content: 80;
-    color: white;
-}
 
 /* for chrome and safari */
 progress::-webkit-progress-value{ background-color: #ad0b0b; }
 
 /* for firefox  */
 progress::-moz-progress-bar{ background-color: #ad0b0b;}
+
+
 
 
 
