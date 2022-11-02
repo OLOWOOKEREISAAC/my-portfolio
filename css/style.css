@@ -486,10 +486,14 @@ progress::-moz-progress-bar{ background-color: #ad0b0b;}
         padding: 0 10%;
     }
     nav{
-        grid-template-columns: repeat(2, 1fr);
+        display: inline-block;
+        margin: 15px ;
+        padding: 0;
+        margin-left: 25%;
+        /* grid-template-columns: 1fr;
         column-gap: 25px;
-        padding: 25px 0 3%;
-        margin: 0;
+        padding: 20px 0 3%;
+        margin: 0; */
     }
     .hidden{
         display: none;
