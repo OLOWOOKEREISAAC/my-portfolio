@@ -82,25 +82,11 @@ nav a{
     padding: 0 10px;
     
 }
-/* nav  #portfolio{
-    border-right: 2px solid white;
-    border-left: 2px solid white;
-} */
+
 
 nav a:hover{
-    padding: 2%;
-    
     color: rgb(199, 13, 13);
 }
-/* aside{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: end;
-
-} */
-
-
-
 
 
 .navContainer{
