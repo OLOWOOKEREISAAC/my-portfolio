@@ -51,7 +51,7 @@ section{
 
 
 .top-bar{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .logo a p{
     font-family: logo-font;
@@ -149,11 +149,7 @@ nav a:hover{
     background-color:rgb(199, 13, 13);
 }
 
-/* .presentPage{
-    font-size: 120%;
-    color: rgb(199, 13, 13);
-    /* font-family: Arial, Helvetica, sans-serif; 
-} */
+
 
 .projectContainer {
     display:grid;
@@ -211,13 +207,14 @@ nav a:hover{
     
 }
 .aboutPageContainer figure{
-    height: 410px;
+    height: 350px;
+    justify-self: flex-start;
 
 }
 .aboutPageContainer img{
     border-radius: 10px;
     height: 100%;
-    box-shadow: -6px -6px 2px rgba(228, 216, 168, 0.897);
+    box-shadow: 6px 6px  rgba(228, 216, 168, 0.897);
     
 }
 .aboutPageContainer b{
@@ -250,7 +247,7 @@ p{
 
 .introduction{
     border-bottom: 1px solid rgb(49, 45, 45) ;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 .aboutPageContent button, #submit {
     padding: 15px 35px;
@@ -285,7 +282,7 @@ p{
     /* background-color: white; */
     margin: 8px 10px;
     color: rgba(238, 231, 231, 0.918);
-    font-size: 20px;
+    font-size: 25px;
 }
 .flexboxForResumeSection a i:hover{
     color: #b60c0c;;
@@ -410,26 +407,74 @@ progress::-moz-progress-bar{ background-color: #ad0b0b;}
 
 
 
-
-
-@media screen and (max-width:800px) {
+@media screen and (max-width:1035px){
     section{
         padding: 0 5%;
+    }
+    .aboutPageContainer figure{
+        /* margin: auto; */
+        height: 330px;
+        align-self: end;  
+         
+    }
+}
+
+@media screen and (max-width:800px) {
+    /* .aboutPageContainer figure {
+        margin: auto;
+        height: 300px;
+    }  */
+    .top-bar{
+        margin-bottom: 20px;
     }
     .projectContainer{
         grid-template-columns:1fr;   
     }
+
     .aboutPageContainer{
-       margin: 40px 0;
-        
-        
+        grid-template-columns: 100%;
+        margin-top: 0;
     }
     .aboutPageContainer figure{
+        height: 200px;
+        /* margin-top: 20px; */
+        justify-self: center;
+    }
+    .aboutPageContainer img{
+        border-radius: 100%;
+        height: 90%;
+        box-shadow: none;
+
+    }
+    
+    /* .aboutPageContainer figure{
         margin: auto;
         height: 200px;
          
          
-     }
+    } */
+    .myServicescontainer{
+        display: grid;
+        grid-template-columns: 90%;
+        /* gap:  0px ; */
+        /* text-align: left; */
+    }
+    .myServicescontainer .toolsIntroduction {
+        grid-column: 1 /2;
+        /* margin-bottom: 15px; */
+    }
+
+    .contactPageContainerGrid{
+        
+        grid-template-columns: 90% ;
+        
+    }
+    .contactInfo{
+        grid-row-start: 1;
+    }
+    
+
+      
     
 }
 
