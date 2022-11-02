@@ -482,6 +482,9 @@ progress::-moz-progress-bar{ background-color: #ad0b0b;}
 
 
 @media screen and (max-width:500px){
+    section{
+        padding: 0 10%;
+    }
     nav{
         grid-template-columns: repeat(2, 1fr);
         column-gap: 25px;
@@ -517,9 +520,37 @@ progress::-moz-progress-bar{ background-color: #ad0b0b;}
         box-shadow: none;
 
     }
-
-    .tools{
-        grid-template-columns: 1fr;
+    .flexboxForResumeSection{
+        display: block;
+        text-align: center;
+    }
+    .line{
+     opacity: 0;   
     }
 
+    .toolsContainer{
+        grid-template-columns: 1fr;
+    }
+    .toolsIntroduction {
+        grid-column: 1 /2;
+        
+    }
+    #getInTouch, .toolsIntroduction>h1{
+        font-size: 40px;
+    }
+    .eachService{
+        width: 100%;
+        height: 300px;
+        background-color: rgba(68, 62, 62, 0.26);
+        padding:   10px ;
+        border-radius: 10px;
+        box-shadow: 2px 2px 0 white ;
+        margin: auto;
+        
+    }
+    .eachService i{
+        color: #b60c0c;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
 }
